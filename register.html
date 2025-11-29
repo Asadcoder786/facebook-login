@@ -33,8 +33,8 @@
                     <p>It's quick and easy.</p>
                 </div>
                 <div class="inputs">
-                    <input type="text" placeholder="First Name" required class="input1">
-                    <input type="text" placeholder="Surname" required class="input2">
+                    <input type="text" placeholder="First Name" required class="input1" id="1stName">
+                    <input type="text" placeholder="Surname" required class="input2" id="2ndName">
                 </div>
                 <div class="dob-group">
                     <label for="dob-day" class="control-label">Date of birth <i
@@ -218,8 +218,8 @@
                     </div>
 
                 </div>
-                <div class="mobile-no"> <input type="text" placeholder="Mobile number or email address"></div>
-                <div class="password"> <input type="password" placeholder="New password"></div>
+                <div class="mobile-no"> <input type="text"  placeholder="Mobile number or email address" id="mobNo"></div>
+                <div class="password"> <input type="password"  placeholder="New password" id="pass"></div>
                 <div class="foot-para1">
                     <p>People who use our service may have uploaded your contact information to Facebook. <a
                             href="">Learn more</a></p>
@@ -228,10 +228,12 @@
                     <p>By clicking Sign Up, you agree to our <a href="">Terms, Privacy Policy</a> and <a href="">Cookies
                             Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
                 </div>
-                <div class="foot-button"><button class="button3"><a href="dashboard.html" target="_blank">Sign Up</a></button></div>
+                <div class="foot-button" ><button class="button3" onclick="registerHandler()"><a href="dashboard.html" target="_blank">Sign Up</a></button></div>
                 <div class="foot-last"><a href="index.html" target="_blank">Already have an account?</a></div>
             </div>
         </div>
+        <script src="app.js"></script>
+        
 </body>
 
 </html>

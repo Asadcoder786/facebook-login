@@ -15,9 +15,9 @@
             </div>
             <div class="form">
                <form action="">
-                 <input type="text" placeholder="Email address and phone number" required>
-                <input type="password" placeholder="password" required class="input2">
-                <button class="button1"><a href="dashboard.html" target="_blank">Log In</a></button>
+                 <input type="text" id="email" placeholder="Email address and phone number" required value="Anonymous123@gmail.com">
+                <input type="password"  id="password"  placeholder="password" required class="input2" value="198572839">
+                <button class="button1" onclick="submitHandler()"><a href="dashboard.html" target="_blank" >Log In</a></button>
                 <button class="button2">Forgotten Password</button>
                 <hr>
                 <button class="button3"><a href="register.html" target="_blank">Create New Account</a></button>
@@ -25,6 +25,7 @@
             </div>
         </div>
     </div>
-    
+
+    <script src="app.js"></script>
 </body>
 </html>
